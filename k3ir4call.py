@@ -1,6 +1,3 @@
-#!/bin/python
-
-
 
 import requests, json, os, sys, random
 #-------------------------------Warna---------------------------------------------------
@@ -26,10 +23,10 @@ def main():
 def logo():
   print """%s
   __  __ ___    ___                                   
- |  \/  |   \  / __|_ __  __ _ _ __  _ __  ___ _ _ ___%sAuthor by %sMrAiGans%s
- | |\/| | |) | \__ \ '_ \/ _` | '  \| '  \/ -_) '_(_-<%sGithub %sgithub.com/MrAiGans%s
- |_|  |_|___/  |___/ .__/\__,_|_|_|_|_|_|_\___|_| /__/%sTeam %sDRAGONVIRUSCYBER%s
-                   |_|                            %sTools spam otp dengan 100 spammers"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
+ |  \/  |   \  / __|_ __  __ _ _ __  _ __  ___ _ _ ___ %sAuthor by %sMrAiGans%s
+ | |\/| | |) | \__ \ '_ \/ _` | '  \| '  \/ -_) '_(_-< %sGithub %sgithub.com/MrAiGans%s
+ |_|  |_|___/  |___/ .__/\__,_|_|_|_|_|_|_\___|_| /__/ %sTeam %sDRAGONVIRUSCYBER%s
+                   |_|                                 %sTools spam otp dengan 100 spammers"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
 #-------------------------------Input Function------------------------------------------
 def input():
   global nom
@@ -305,6 +302,3 @@ if __name__ == '__main__':
   input()
  except (KeyboardInterrupt,EOFError): print "%s[%s!%s] %sExit"%(pu,me,pu,pu)
  except requests.exceptions.ConnectionError: exit("%s[%s!%s] %sConnection Error..."%(pu,me,pu,me))
-done
-
-
